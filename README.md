@@ -1,162 +1,107 @@
-🧠 Machine Learning Algorithms — Implementations & Practice
+# 🧠 ML Algorithms — Core Machine Learning, Deep Learning & Reinforcement Learning Implementations
 
-A comprehensive repository containing implementations of Machine Learning, Deep Learning, and Reinforcement Learning algorithms in Python.
-This repository is focused on understanding core algorithms, their working principles, and practical usage, making it suitable for learning, revision, and AI/ML internship preparation.
+A comprehensive collection of **Machine Learning, Deep Learning, and Reinforcement Learning algorithms implemented from scratch** with Python.
+This repository focuses on learning algorithm logic, building core intuition, and understanding how ML systems work behind the scenes.
 
-🚀 Overview
+---
 
-This repository is a collection of individual Python implementations of popular ML, DL, and RL algorithms, covering:
+## 🚀 Overview
 
-Supervised & Unsupervised Learning
+This project contains implementations of classic and modern ML, DL, and RL algorithms — each written to demonstrate the **internal mechanics**, not just library usage.
 
-Ensemble Methods
+This repo is ideal for:
+✔ Learning machine learning fundamentals
+✔ Strengthening algorithm intuition
+✔ Preparing for ML interviews
+✔ Academic reference and study
 
-Dimensionality Reduction
+---
 
-Deep Learning architectures
+## 📚 Algorithms Included
 
-Reinforcement Learning techniques
+### 📌 **Supervised Learning**
 
-Each file represents a standalone implementation of a specific algorithm, written to strengthen conceptual understanding rather than relying purely on black-box libraries.
+**Regression**
 
-📚 Algorithms Implemented
-🔹 Supervised Learning
-📌 Regression
+* `linear_regression.py` — Linear Regression
+* `Polynomial_regression.py` — Polynomial Regression
+* `Ridge_lasoo_regression.py` — Ridge & Lasso Regression
+* `Gradient_bosting.py` — Gradient Boosting Regression
 
-Linear Regression (linear_regression.py)
+**Classification**
 
-Polynomial Regression (Polynomial_regression.py)
+* `logistic_regression.py` — Logistic Regression
+* `knn.py`, `k_nearest_neightbours.py` — K-Nearest Neighbors
+* `SVM.py` — Support Vector Machines
+* `decision_trees.py` — Decision Tree Classifier
+* `Random_forest.py` — Random Forest Classifier
 
-Ridge & Lasso Regression (Ridge_lasoo_regression.py)
+---
 
-Gradient Boosting (Gradient_bosting.py)
+### 📌 **Unsupervised Learning**
 
-Random Forest (Random_forest.py)
+* `k_means_clustering.py` — K-Means Clustering
+* `Hierarchical_clustering.py` — Hierarchical Clustering
+* `dbscan.py` — DBSCAN Clustering
+* `Gausian_mixture.py` — Gaussian Mixture Models
 
-📌 Classification
+---
 
-Logistic Regression (logistic_regression.py)
+### 📌 **Dimensionality Reduction & Visualization**
 
-K-Nearest Neighbors (knn.py, k_nearest_neightbours.py)
+* `Principal_component_analysis.py` — PCA
+* `TSNE.py` — t-SNE
 
-Support Vector Machine (SVM) (SVM.py)
+---
 
-Decision Trees (decision_trees.py)
+### 📌 **Deep Learning**
 
-🔹 Unsupervised Learning
+* `cnn.py` — Convolutional Neural Network
+* `rnn.py` — Recurrent Neural Network
+* `lstm.py` — LSTM Network
+* `Autoencoders.py` — Autoencoder
+* `Self_training_encoders.py` — Self-Training Encoders
+* `transformers.py` — Transformer Architecture
 
-K-Means Clustering (k_means_clustering.py)
+---
 
-Hierarchical Clustering (Hierarchical_clustering.py)
+### 📌 **Reinforcement Learning**
 
-DBSCAN (dbscan.py)
+* `QLearning.py` — Q-Learning
+* `DeepQNetworks.py` — Deep Q Networks
+* `PolicyGradient.py` — Policy Gradient Methods
 
-Gaussian Mixture Model (Gausian_mixture.py)
+---
 
-Principal Component Analysis (PCA) (Principal_component_analysis.py)
+### 📌 **Utility & Extras**
 
-t-SNE (TSNE.py)
+* `native_bytes.py` — Misc utility example
+* `main.py` — Example runner script (entry point pattern)
 
-Isolation Forest (isolation_forest.py)
+---
 
-🔹 Deep Learning
-
-Artificial Neural Networks / CNN (cnn.py)
-
-Recurrent Neural Network (RNN) (rnn.py)
-
-Long Short-Term Memory (LSTM) (lstm.py)
-
-Autoencoders (Autoencoders.py)
-
-Self-Training Encoders (Self_training_encoders.py)
-
-Transformers (transformers.py)
-
-🔹 Reinforcement Learning
-
-Q-Learning (QLearning.py)
-
-Deep Q Networks (DQN) (DeepQNetworks.py)
-
-Policy Gradient Methods (PolicyGradient.py)
-
-🔹 Additional Concepts
-
-Native Bytes (native_bytes.py)
-
-Entry / driver script (main.py)
-
-🧠 Learning Focus
+## 🧠 Learning Approach
 
 This repository emphasizes:
-✔ Core algorithm logic
-✔ Understanding learning pipelines
-✔ Exposure to multiple ML paradigms
-✔ Preparation for ML interviews and exams
+✅ Algorithm fundamentals — *how they work*
+✅ Python implementations from scratch
+✅ Exposure to multiple ML paradigms
+✅ Minimal reliance on black-box libraries
+✅ Clear progression from basic → advanced
 
-The goal is conceptual clarity first, followed by practical exposure.
+---
 
-🛠️ Tech Stack
-Category	Tools
-Language	Python 🐍
-Libraries	NumPy, Pandas, Scikit-learn, TensorFlow / PyTorch (where applicable)
-Concepts	ML, Deep Learning, Reinforcement Learning
-Version Control	Git & GitHub
-▶️ How to Run
+## 📦 Tech Stack
 
-Each file is independent and can be executed separately.
+| Category        | Technology                                                                  |
+| --------------- | --------------------------------------------------------------------------- |
+| Language        | Python 🐍                                                                   |
+| Libraries Used  | Numpy, Pandas, Scikit-learn (optional), Matplotlib (optional visualization) |
+| Focus           | ML / DL / RL fundamentals                                                   |
+| Repository Type | Educational + Reference                                                     |
 
-# Install dependencies
-pip install numpy pandas scikit-learn tensorflow torch
-
-# Run any algorithm
-python filename.py
+---
 
 
-Example:
-
-python k_means_clustering.py
-python logistic_regression.py
-python DeepQNetworks.py
-
-🎯 Why This Repository Matters
-
-This repository demonstrates:
-
-Strong ML fundamentals
-
-Breadth across ML, DL, and RL
-
-Hands-on implementation experience
-
-Readiness for AI/ML internships
-
-It complements project-based repositories by showcasing algorithmic depth.
-
-🚀 Future Improvements
-
-Organize algorithms into category folders
-
-Add markdown explanations for each algorithm
-
-Add visualizations for outputs
-
-Compare custom implementations with library versions
-
-Add datasets and evaluation metrics
-
-👨‍💻 Author
-
-Raunak Kumar Modi
-🎓 B.Tech Computer Science Engineering — VIT Bhopal University
-
-🔗 GitHub: https://github.com/modiraunak
-
-📜 License
-
-This repository is intended for educational and learning purposes.
-
-⭐ If you find this repository useful, consider starring it!
 
 
